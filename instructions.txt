@@ -1,0 +1,29 @@
+Pushing local repo to remote in GitHub - step by step guide
+
+1) Opern Terminal and create a project directory:
+`$mkdir <dir_name>
+
+2)Move to the project directory:
+`$cd <dir_name>
+
+3) Initialize the local repo with:
+`$git init`
+
+4) Add changes to index with:
+`$git add .` or `$git add <file name>`
+
+5) Commit the changes with: 
+`$git commit -m "some message"`
+
+6) Create new repo in GitHub
+
+7) Name it but DO NOT add README.md, licence or .gitignore.
+
+8) Establish connection between local and remote repos with:
+`$git remote add <URL>`
+
+9) Check connection by listing with: 
+`$git remote -v`
+
+10) Push local repo to GitHub with:
+`git push -u -f oring main`
